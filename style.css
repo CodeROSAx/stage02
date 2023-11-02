@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    width: 109.2rem;
+    margin: 7.1rem auto 2.3rem;
+
+    font-family: 'JetBrains Mono', monospace;
+
+    background: #2C2B3D;
+
+    width: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 10.1rem;
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+    gap: 6.4rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    display: flex;
+
+    margin-bottom: 15.7rem;
+}
+
+section {
+    margin-left: 7.7rem;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 3.6rem;
+    line-height: 4rem;
+
+    margin-bottom: 5.9rem;
+}
+
+h1 span, section p span {
+    color: #00BFA6;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+
+    color: #C2C2C2;
+    line-height: 2.8rem;
+
+    width: 60.4rem;
+}
+
+#line {
+    border: 1px #00BFA6 solid;
+    width: 56.8rem;
+
+    margin: 0 auto 2.7rem;
+}
+
+footer {
+    color: white;
+
+    text-align: center;
+}
+
+#balls {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
